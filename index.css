@@ -1,0 +1,276 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+html, body
+{
+width: 100%;
+background-color: white;
+height: 1000px;
+}
+/* navbar start */
+
+.navbar
+{
+background-color:white;
+padding: 15px;
+position: sticky;
+width: 100%;
+
+}
+
+.navbar ul
+{
+display: inline-block;
+margin-left: 600px;
+}
+
+.navbar ul li
+{
+display: inline;
+}
+
+.navbar ul li a
+{
+margin-left: 22px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 500;
+}
+
+.navbar ul li a:hover
+{
+color: rgb(3, 145, 3);
+}
+
+.navbar ul .navbar-icons a
+{
+margin-left: 10px;
+font-size: 17px;
+font-weight: 500;
+}
+
+.navbar-logo
+{
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 25px;
+font-family: Forte;
+}
+
+/* navbar ends */
+
+
+/* Banner Start */
+
+.banner
+{
+    height: 450px;
+    /* background-color: rgb(0, 0, 0); */
+background-image: url(./banner\ img.jpg);
+}
+.top
+{
+    padding: 40px;
+    padding-bottom: 0px;
+}
+.bottom
+{
+    width: 450px;
+    padding:40px;
+    padding-top: 0px;
+
+}
+.top h1
+{
+    font-size: 40px;
+    color: white;
+}
+.bottom h4
+{
+    color: white;
+}
+/* Banner end */
+
+/* card start */
+
+.class
+{
+    height: 450px;
+    background-color: white;
+}
+
+.we
+{
+    /* border: 2px solid red; */
+    padding: 150px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.card
+{
+/* border: 5px solid black;     */
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin-left: 150px;
+/* margin-right: 250px; */
+
+
+
+}
+.card1,.card2,.card3
+{
+    /* border: 2px dotted red;   */
+    height: 200px;
+    width: 300px;
+   
+}
+button
+{
+    
+    background-color: black;
+    color:white;
+    height: 30px;
+}
+.card2
+{
+    margin-left: 50px;
+    margin-right: 180px;
+
+}
+.card3
+{
+    margin-left: 50px;
+    margin-right: 180px;
+
+}
+.card1
+{
+    margin-right: 180px;
+}
+
+
+
+/* brand section start */
+
+.brand
+{
+border: 1px solid green;
+width: 100%;
+height: 350px;
+/* background-color: black; */
+background-image: url(./brand\ img.jpg);
+color: white;
+margin-top: 47px;
+}
+ .ull
+ {
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    
+    
+ }
+ .ull li
+ {
+    display: inline-block;
+    margin:90px;
+ }
+ .ull li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+  
+ }
+ .web1{
+    margin-left: 116px;
+    font-size: 45px;
+ }
+ .web4{
+    margin-left: 116px;
+ }
+
+ /* photo section :start */
+.phoadd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery{
+    width: 500px;
+
+   
+}
+
+.content h2{
+    margin-left: 178px;
+    font-size: 37px;
+}
+.content h5{
+margin-left:178px ;
+}
+
+/*  */
+
+.blue
+{
+    border: 1px solid black;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(51, 67, 211, 0.918);
+}
+.foot
+{
+    margin-left: 450px;
+    margin-top: 15px;
+    color: white;
+    
+}
+.bt
+{
+    background-color: white;
+    color: black;
+    padding:6px;
+}
+.logo1{
+    text-decoration: none;
+color: black;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 25px;
+font-family: Forte;
+margin-left: 590px;
+
+}
+.hh{
+    margin-left: 467px;
+    font-size: 15px;
+    color: white;
+}
+.lastfoot{
+    background-color: black;
+    height:150px;
+    color: white;
+  
+}
+.face {
+    margin-left: 500px;
+    
+}
+.face a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+}
